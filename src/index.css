@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Jost:wght@500;700&family=Public+Sans:wght@300;400;500&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  font-family: "Beau Rivage", cursive;
+  font-family: "Jost", sans-serif;
+  font-family: "Public Sans", sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+i {
+  color: hsl(233, 26%, 24%);
+  color: hsl(136, 65%, 51%);
+  color: hsl(136, 46%, 72%);
+  color: hsl(192, 70%, 51%);
+  color: hsl(192, 74%, 79%);
+  color: hsl(233, 8%, 62%);
+  color: hsl(220, 16%, 96%);
+  color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 100%);
 }
